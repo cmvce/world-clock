@@ -1,11 +1,11 @@
 body {
-  background-color: #c2c1a5;
+  background-color: #6f897a;
   font-family: sans-serif;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: #f5f9e9;
+  background-color: #76937f;
   padding: 30px;
 
   box-shadow: 10px 5px 5px rgba(0, 0 0, 0.4);
@@ -16,12 +16,17 @@ h1 {
   font-family: sans-serif;
   font-size: 36px;
 }
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
 select {
   display: block;
   width: 100%;
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
+  background-color: #c2c1a5;
 }
 
 .city {
@@ -34,10 +39,7 @@ select {
 .city:last-child {
   border: none;
 }
-h2 {
-  margin: 0 0 5px;
-  font-size: 28px;
-}
+
 .time {
   font-size: 48px;
   font-weight: bold;
@@ -51,6 +53,6 @@ h2 {
 
 footer {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.8);
 }
